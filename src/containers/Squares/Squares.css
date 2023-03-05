@@ -1,0 +1,27 @@
+.squares {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 64px;
+}
+
+.squares__row {
+  display: flex;
+}
+
+.square {
+  flex: 1;
+  background: rgb(223, 217, 217);
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
