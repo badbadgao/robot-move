@@ -18,7 +18,7 @@ const InputOutputSummary = ({ commands }: IInputOutputSummaryProps) => {
         {commands.map((command, index) => (
           <div
             key={index}
-            ref={index === commands.length - 1 ? lastCommandRef : null}
+            ref={index !== commands.length - 1 ? lastCommandRef : null}
           >
             {command}
           </div>

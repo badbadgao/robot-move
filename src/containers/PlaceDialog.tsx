@@ -32,7 +32,7 @@ const PlaceDialog = ({
         <div className="placeCommandForm">
           {/* <-- x field --> */}
           <div className="form__field">
-            <label className="form__label" htmlFor="email">
+            <label className="form__label" htmlFor="x">
               x
             </label>
             <input
@@ -51,12 +51,12 @@ const PlaceDialog = ({
           </div>
           {/* <-- y field --> */}
           <div className="form__field">
-            <label className="form__label" htmlFor="confirmPassword">
+            <label className="form__label" htmlFor="y">
               y
             </label>
             <input
               id="y"
-              name="confirmPassword"
+              name="y"
               className="form__input"
               type="number"
               max={4}
@@ -69,7 +69,7 @@ const PlaceDialog = ({
             />
           </div>
           <div className="form__field">
-            <label className="form__label" htmlFor="password">
+            <label className="form__label" htmlFor="Direction">
               Direction
             </label>
             <select

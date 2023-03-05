@@ -18,6 +18,7 @@ const Squars = ({ position }: TSquaresProps): JSX.Element => {
               .fill(null)
               .map((_, columnIndex) => (
                 <Square
+                  dataTestid={`${columnIndex}-${4 - rowIndex}`}
                   key={`${rowIndex}-${columnIndex}`}
                   active={
                     columnIndex === position.x && rowIndex === 4 - position.y
